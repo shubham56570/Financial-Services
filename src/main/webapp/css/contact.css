@@ -1,0 +1,128 @@
+body {
+	background-color: #fff;
+	line-height: 1.9;
+	color: darken(#ccc, 25%);
+}
+
+.header{
+    float: left;
+    background-color: #ccc;
+    height: 60px;
+    width: 100%;
+}
+.left{
+    float: left;
+    background-color: white;
+    height: 760px;
+    width: 50%;
+    align-content: center;
+}
+
+.left-one{
+    background-color: white;
+    height: 150px;
+    width: 60%;
+    margin-left: 864px;
+    margin-top: 100px;
+}
+
+.left-two{
+    background-image: url(/images/feedbackside.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    margin-top: -140px;
+}
+.header{
+    background-image:url('./Camera Roll/glass-jar-full-money-front-decreasing-stacked-coins-against-white-background_23-2147919228.jpg')
+    
+}
+
+#img{
+    width: 10px;
+    height: 20px;
+}
+.header .left{
+    flex: 1 1 39rem;
+
+}
+.left .left-one h1{
+    color: #333;
+    font-size: 32px;
+
+}
+.left .left-one h3{
+    color: #333;
+    font-size: 15px;
+
+}
+
+/* form css start */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 50%;
+ 
+}
+.container h1{
+    color: white;
+    font-family: sans-serif;
+    margin: 20px;
+    font-weight: 600;
+}
+.registration-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    color: rgb(255,255,255);
+    font-size: 18px;
+    font-family: sans-serif;
+    background-color: #471568;
+    padding: 20px;
+    margin-top: 340px;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea{
+    border: none;
+    padding: 7px;
+    margin-top: 8px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.registration-form input:focus,
+.registration-form textarea:focus,
+.registration-form select:focus{
+    box-shadow: 3px 3px 10px rgb(232, 229, 229), -3px -3px 10px rgb(225, 130, 193);
+}
+
+.registration-form .submit{
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 20px;
+    color: rgb(44,44,44);
+    background-color: #fff;
+    border-radius:10px;
+}
+.registration-form .submit:hover{
+    background-color: rgb(220, 11, 98);
+    color: #fff;
+}
+
+
+

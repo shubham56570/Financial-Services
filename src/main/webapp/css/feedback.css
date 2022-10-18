@@ -1,0 +1,92 @@
+
+.feedbody{
+    width: 80%;
+    height: 711px;
+    background-color: rgb(207, 203, 203);
+    text-align: center;
+    font-size: medium;
+    padding-top: 3px;
+    border-radius: 8px;
+    margin: 30px;
+    margin-left: 160px;
+}
+
+.feedbody1{
+    padding-top: 4%;
+    width: 52%;
+    height: 480px;
+    background-color: rgb(120 167 214);
+    float: left;
+    border-color: #fff;
+    border-radius: 30px;
+    margin-block: 20px;
+    margin-left: 280px;
+    font-size: 25px;
+}
+
+.feedbody2{
+    float:left;
+    border-radius: 30px;
+    margin-top: -550px;
+}
+
+img{
+	margin-left:900px;
+	height:400px;
+	width:550px;
+}
+.tbl{
+    text-align: left;
+    width: 60%;
+    height: 419px;
+    margin-left: 120px;
+}
+
+td{
+    width: 50%;
+}
+
+/* START --- input text css */
+textarea{
+    width: auto;
+    padding: 24px 58px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ input[type=text], select {
+    width:auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ input[type=submit] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+input[type=textarea], input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
+h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 16px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}

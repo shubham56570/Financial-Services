@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+a {
+	text-decoration: none;
+}
+
+body {
+	background-image: url("/images/financialservicesBG.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+img {
+	opacity: 80%;
+}
+
+#maindiv{
+margin-top: 50px;
+text-align: center;
+}
+
+.row{
+padding-bottom: 50px;
+}
+
+.card{
+width: 90%;
+}
+
