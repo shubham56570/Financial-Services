@@ -57,7 +57,16 @@ else if(address==''){
       return false;
   }
   else{
-      alert(" Thanks For Contacting us Your Form Submitted successfully Mr./Ms. "+fname+lname);
+      alert(" Thanks For Contacting us Your Form Submitted successfully Mr./Ms. "+fname+"  "+lname);
   }
   }
   
+  function myfunction(){
+    var txt;
+
+    if(confirm("press the button")){
+      txt="u press ok"
+
+    }else("")
+
+  }

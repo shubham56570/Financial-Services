@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <!-- header section start -->
+    <<!-- header section start -->
     <header>
 		<a href="/views/home.jsp" class="logo"><img src="/images/homelogo.png" alt="" /></a>
   
@@ -23,7 +23,7 @@
 			<li><a href="/views/home.jsp">HOME</a></li>
 			<li><a href="/views/about.jsp">ABOUT US</a></li>
 			<li><a href="/getcontactform">CONTACT US</a></li>
-			<li><a href="/views/financialservices.jsp">FINANCIAL SERVICES</a></li>
+			<li><a href="/views/userLogin.jsp">FINANCIAL SERVICES</a></li>
 			  <div class="dropdown">
 			  <button class="dropbtn">LOGIN</button>
 			  <!-- <li><a href="/userlogin">LOGIN</a></li> -->

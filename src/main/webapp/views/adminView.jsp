@@ -26,7 +26,7 @@ a{
     
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">DoEasy</a>
+          <!-- <a class="navbar-brand" href="#">financial service</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -42,7 +42,7 @@ a{
                 <a class="nav-link" href="/savefeedback">FEEDBACK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/userlogin">LOGIN</a>
+                <a class="nav-link" href="/views/home.jsp">LOGOUT</a>
               </li>
             </ul>
           </div>
@@ -69,8 +69,8 @@ a{
             </tr>
             <tr>
             		<td>2</td>
-                    <td>Users Registered</td>
-                    <td style="text-align: left"><a class="btn btn-primary" href="/viewusers">Users</a></td>
+                    <td>Client Registered</td>
+                    <td style="text-align: left"><a class="btn btn-primary" href="/views/ClientView.jsp">Users</a></td>
             </tr>
             <tr>
             		<td>3</td>
@@ -84,8 +84,8 @@ a{
 			</tr>
 			<tr>
 					<td>5</td>
-                    <td>Client Registered List</td>
-                    <td style="text-align: left"><a class="btn btn-primary" href="/viewClientform">Registered Client</a></td>
+                    <td>User Registered List</td>
+                    <td style="text-align: left"><a class="btn btn-primary" href="/views/userlist.jsp">Registered Client</a></td>
 			</tr>
 			<tr>
 					<td>6</td>

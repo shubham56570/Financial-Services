@@ -36,7 +36,7 @@ public class ContactFormController {
 		if(bind.hasErrors())
 		return "contact";
 		ContactService.saveContactform(Contact);
-		return "home";
+		return "contact";
 	}
 	 
 	@GetMapping("/deletecontact/{con_id}")

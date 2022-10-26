@@ -18,7 +18,7 @@ function formValidation(){
   const checkbox=document.getElementById("txtcheckbox").value;
 
    var letters = /^[A-Za-z\s]+$/;
-  var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/;
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,3})+$/;
     var phnumber = /^([1-9][0-9]{9})+$/;
     var zip = /^([1-9][0-9]{5})+$/;
   
@@ -35,11 +35,11 @@ function formValidation(){
     //for checking Last name
     else if (lastname == "") {
       alert("Please enter your last name");
-      document.getElementById("fname").focus();
+      document.getElementById("lname").focus();
       return false;
     } else if (!letters.test(lastname)) {
       alert("Name field required only alphabet characters");
-      document.getElementById("fname").focus();
+      document.getElementById("lname").focus();
     }
 
     //for checking Email Id

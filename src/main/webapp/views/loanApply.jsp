@@ -225,7 +225,10 @@
         </table>
       </form>
     </div>
-    <script src="/js/loanvalidation.js"></script>
+    <script src="/js/loanvalidation.js">
+
+alert(document.getElementById('txtcheckbox').checked);
+    </script>
 
 </body>
 </html>

@@ -20,24 +20,24 @@
 						<h1>Client Registration List</h1>
 					</tr>
 					<tr>
-						<th><a href="/views/home.jsp" class="btn btn-primary" > Go to Back</a></th>
+						<th><a href="/views/adminView.jsp" class="btn btn-primary" > Go to Back</a></th>
 					</tr>
 					<tr>
 						<th>FY</th>
-						<th>Organization</th>
 						<th>Business Name</th>
-						<th>Legal Name</th>
+						<th>Organization</th>
+						<th>Address</th>
 						<th>Email</th>
+						<th>GSTIN</th>
+						<th>Legal Name</th>
 						<th>Mobile</th>
 						<th>PAN</th>
-						<th>Address</th>
-						<th>GSTIN</th>
 					</tr>
 			</thead>
 			<tbody>
 			<c:forEach var="data" items="${Clientattri}">
 			<tr>
-				<td><c:out value="${data.cl_pre_date}" /></td>
+				<td><c:out value="${data.client_id}" /></td>
 				<td><c:out value="${data.cl_Org}" /></td>
 				<td><c:out value="${data.cl_Buss_name}" /></td>
 				<td><c:out value="${data.cl_legal_name}" /></td>

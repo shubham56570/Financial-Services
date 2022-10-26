@@ -10,26 +10,27 @@
 </head>
 <body>
 <div class="container mt-5">
-<h1> Feedback List</h1>
+<h1> User Create_Account List</h1>
 	<table border=1 class="table table-striped table-responsive-md">
 			<thead>
 					<tr>
-						<th>ID</th>
-						<th>Name</th>
-						<th>Number</th>
+						<th>User_ID</th>
+						<th>User_Name</th>
 						<th>Email</th>
-						<th>Message</th>
+						<th>Full_Name</th>
+						<th>Pass</th>
 						<th>Action</th>
+
 					</tr>
 			</thead>
 			<tbody>
 			<c:forEach var="data" items="${listusersattri}">
 			<tr>
-				<td><c:out value="${data.user_id}" /></td>
-				<td><c:out value="${data.user_fullname}" /></td>
-				<td><c:out value="${data.user_email}" /></td>
-				<td><c:out value="${data.user_name}" /></td>
-				<td><c:out value="${data.user_pwd}" /></td>
+				<td><c:out value="${data.userid}" /></td>
+				<td><c:out value="${data.username}" /></td>
+				<td><c:out value="${data.email}" /></td>
+				<td><c:out value="${data.fullname}" /></td>
+				<td><c:out value="${data.password}" /></td>
 			</tr>
 			</c:forEach>
 			</tbody>

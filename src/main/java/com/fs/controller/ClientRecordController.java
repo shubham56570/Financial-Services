@@ -33,12 +33,12 @@ public class ClientRecordController {
        return "ClientView";
    }
 
-   @GetMapping("/Clientform")
-   public String Clientform(Model model) {
-      List<Client> listClient_info = ClientInfoService.getAllClientinfo();
-      model.addAttribute("Clientattri", listClient_info);
-      return "Client";
-   }
+   // @GetMapping("/Clientform")
+   // public String Clientform(Model model) {
+   //    List<Client> listClient_info = ClientInfoService.getAllClientinfo();
+   //    model.addAttribute("Clientattri", listClient_info);
+   //    return "Client";
+   // }
 
    @PostMapping("/processClientform")
    public String processClientform(@Valid @ModelAttribute("Clientattri") Client Client, BindingResult bind) {

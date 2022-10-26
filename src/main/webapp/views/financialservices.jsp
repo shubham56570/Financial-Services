@@ -32,7 +32,7 @@
 						href="/views/about.jsp">ABOUT US</a></li>
 					<li class="nav-item"><a class="nav-link" href="/savefeedback">FEEDBACK</a>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="/userlogin">LOGIN</a>
+					<li class="nav-item"><a class="nav-link" href="/views/home.jsp">LOGOUT</a>
 					</li>
 				</ul>
 			</div>
@@ -48,7 +48,7 @@
 			<div class="card-body">
 				<h5 class="card-title">Your Profile</h5>
 				<p class="card-text">Complete your profile</p>
-				<a href="/Clientform" class="btn btn-success">Fill Details</a>
+				<a href="/views/Client.jsp" class="btn btn-success">Fill Details</a>
 			</div>
 		</div>
 	</div>

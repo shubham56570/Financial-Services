@@ -16,8 +16,8 @@
 	
 	<div class="login">
 
-		<h5 id="DoEasy">DoEasy.com</h5>
-		<h4>Create DoEasy Account</h4>
+		<h5 id="DoEasy">financialservices.com</h5>
+		<h4>Create user Account</h4>
 		
         <div class="inputs">
             <form:input path="fullname" placeholder="fullname" />
